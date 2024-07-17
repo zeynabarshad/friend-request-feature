@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+.container-fluid{
+    background-color: rgba(0, 0, 0, 0.756);
+    width: 100%;
+    height: 100%;
+}
+.container-md{
+    background-color: rgba(0, 0, 0);
+    width: 100%;
+    height: 100%;
+   display: flex;
+    padding: 0%;
+    
+    
+}
+.container-md .picture{
+    height: 100%;
+    width: 50%;
+    
+}
+.container-md .comment-div{
+    height: 100%;
+    width: 50%;
+}
+.picture img{
+   width: 100%;
+   height: 100%;
+   position: relative;
+    object-fit: cover;
+  
+  
+}
+.picture i{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    opacity: 0;
+    transform: scale(0);
+    transition: transform ease 0.4s;
+
+}
+.id-tag{
+    width: 100%;
+    height: 65px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.142);
+    
+}
+.id-tag img{
+    
+        width: 45px; /* Width of the small image */
+        height: 45px; /* Height of the small image */
+        border-radius: 50%; /* Makes the image circular */
+        object-fit: cover; /* Ensures the image covers the container without distorting */
+    
+}
+
+.comment-div .id-tag{
+    display: flex;
+   align-items: center;
+   
+}
+.id-tag p{
+    padding-top: 10px;
+    margin-left: 15px;
+margin-right: 10px;
+font-weight: 800;
+font-size: medium;
+color: aliceblue;
+cursor: pointer;
+}
+
+.follow :hover{
+    color: white;
+    
+}
+.comment-div .commentss{
+    width: 100%;
+    margin: 10px,0,10px,10px;
+height: 350px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-bottom: 1px solid rgba(255, 255, 255,  0.142);
+}
+.commentss h2{
+color: white;
+}
+.comment-div .icons{
+width: 100%;
+height: 50px;
+padding-top: 10px;
+padding-left: 5px;
+padding-right: 10px;
+color: white;
+display: flex;
+justify-content: space-between;
+
+}
+.icons .button-sec i{
+margin: 4px;
+}
+.comment-div .likes{
+    width: 100%;
+    height: 60px;
+border-bottom: 1px solid rgba(255, 255, 255,  0.142);
+padding-bottom: 9px;
+
+
+}
+.comment-div .reply-cmnt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 10px;
+}
